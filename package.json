@@ -1,17 +1,17 @@
 {
   "name": "gulp-responsive",
   "version": "2.14.0",
-  "description": "gulp responsive images",
+  "description": "gulp responsive images with latest package dependencies working with node 12",
   "main": "lib",
   "license": "MIT",
-  "repository": "mahnunchik/gulp-responsive",
+  "repository": "milottit/gulp-responsive-last",
   "author": {
-    "name": "Evgeny Vlasenko",
-    "email": "mahnunchik+responsive@gmail.com",
-    "url": "https://github.com/mahnunchik"
+    "name": "Thomas Milotti",
+    "email": "thomas.milotti@gmail.com",
+    "url": "https://github.com/milottit"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=12"
   },
   "scripts": {
     "test": "npm run lint && mocha",
@@ -39,12 +39,12 @@
     "plugin-error": "^1.0.1",
     "plur": "^3.1.1",
     "rename": "^1.0.4",
-    "sharp": "^0.21.0",
+    "sharp": "^0.23.0",
     "through2": "^3.0.1",
     "vinyl": "^2.2.0"
   },
   "devDependencies": {
-    "file-type": "^11.0.0",
+    "file-type": "^12.1.0",
     "jshint": "^2.10.2",
     "mocha": "^6.1.4"
   }

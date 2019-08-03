@@ -4,7 +4,7 @@
   "description": "gulp responsive images with latest package dependencies working with node 12",
   "main": "lib",
   "license": "MIT",
-  "repository": "milottit/gulp-responsive-last",
+  "repository": "milottit/gulp-responsive-last.git",
   "author": {
     "name": "Thomas Milotti",
     "email": "thomas.milotti@gmail.com",

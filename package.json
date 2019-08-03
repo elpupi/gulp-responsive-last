@@ -1,5 +1,5 @@
 {
-  "name": "gulp-responsive",
+  "name": "@gulp/responsive",
   "version": "2.14.0",
   "description": "gulp responsive images with latest package dependencies working with node 12",
   "main": "lib",

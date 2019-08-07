@@ -1,6 +1,6 @@
 {
   "name": "@up-gulp/responsive",
-  "version": "2.15.1",
+  "version": "2.15.2",
   "description": "gulp responsive images with latest package dependencies working with node 12",
   "main": "lib",
   "license": "MIT",

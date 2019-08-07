@@ -1,6 +1,9 @@
-# [gulp](http://gulpjs.com)-responsive [![Build Status](https://travis-ci.org/mahnunchik/gulp-responsive.svg?branch=master)](https://travis-ci.org/mahnunchik/gulp-responsive)
+ # [gulp](http://gulpjs.com)-responsive
+<!-- # [gulp](http://gulpjs.com)-responsive [![Build Status](https://travis-ci.org/mahnunchik/gulp-responsive.svg?branch=master)](https://travis-ci.org/mahnunchik/gulp-responsive) -->
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/gulp-responsive.svg)](https://greenkeeper.io/)
+<!-- [![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/gulp-responsive.svg)](https://greenkeeper.io/) -->
+
+Fork of [gulp-responsive](https://github.com/mahnunchik/gulp-responsive#readme) but working with node 12.
 
 > Generates images at different sizes
 
@@ -21,7 +24,7 @@ $ npm install --save-dev gulp-responsive
 
 ```js
 var gulp = require('gulp');
-var responsive = require('gulp-responsive');
+var responsive = require('@mt-gulp/responsive');
 
 gulp.task('default', function () {
   return gulp.src('src/*.{png,jpg}')
@@ -224,4 +227,4 @@ gulp.task('default', function () {
 
 ## License
 
-MIT © [Evgeny Vlasenko](https://github.com/mahnunchik)
+MIT © [Thomas Milotti](https://github.com/milottit)
